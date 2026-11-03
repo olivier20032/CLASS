@@ -51,7 +51,7 @@ if(isset($_POST['save'])){
     $option=$_POST['s_option'];
     $rp=$_POST['rp'];
   
-    $query=mysqli_query($conn,"INSERT INTO students(s_id,s_name,s_number,s_option,s_college) VALUES('$s_id','$names','$reg_number','$option','$rp')");
+    $query=mysqli_query($conn,"INSERT INTO student(s_id,s_name,s_number,s_option,s_college) VALUES('$s_id','$names','$reg_number','$option','$rp')");
 
     if($query==true){
         echo "data recorded !";

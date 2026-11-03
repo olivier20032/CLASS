@@ -14,7 +14,7 @@
     <center>
     <h1>students list</h1>
     <button><a href="index.php">home</a></button>
-</center>
+    </center>
 </body>
 </html>
 <?php
