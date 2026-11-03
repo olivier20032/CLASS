@@ -60,7 +60,6 @@ if(isset($_POST['save'])){
         echo "failed to record data!";
     }
 }
-
 ?>
 </body>
 </html>
